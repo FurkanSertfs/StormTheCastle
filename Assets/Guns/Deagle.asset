@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3cfe5db8f4612469ee9de059c4e6a3, type: 3}
+  m_Name: Deagle
+  m_EditorClassIdentifier: 
+  firesound: {fileID: 8300000, guid: 4d0af4afd3458094aa5a36ed6fde4047, type: 3}
+  buySound: {fileID: 8300000, guid: 475021fcfff61404da4956522f73191b, type: 3}
+  reloadSound: {fileID: 0}
+  reloadSound2: {fileID: 8300000, guid: e08d4ca17f33d7f4e869a2b8c6e9ba6d, type: 3}
+  reloadSound3: {fileID: 8300000, guid: 44358cb7d8444184c85204df85365b2c, type: 3}
+  damage: 10
+  armorPen: 10
+  cost: 1000
+  automatic: 0
+  fireRate: 0
+  reloadtime: 1.25

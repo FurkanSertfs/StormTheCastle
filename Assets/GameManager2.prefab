@@ -1,0 +1,603 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2965450349494162218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2965450349494162220}
+  - component: {fileID: 2965450349494162195}
+  - component: {fileID: 2965450349494162221}
+  - component: {fileID: 2965450349494162193}
+  - component: {fileID: 2965450349494162223}
+  - component: {fileID: 2965450349494162222}
+  m_Layer: 0
+  m_Name: GameManager2
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2965450349494162220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965450349494162218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2965450349760359103}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2965450349494162195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965450349494162218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d3ecf9866791e4bbe9258a6ec36fb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textClass:
+    selectedTurretName: {fileID: 0}
+    tabName: {fileID: 0}
+    damageBackText: {fileID: 0}
+    damageNextText: {fileID: 0}
+    attackSpeedBackText: {fileID: 0}
+    attackSpeedNextText: {fileID: 0}
+    healthBackText: {fileID: 0}
+    healthNextText: {fileID: 0}
+    towerBackText: {fileID: 0}
+    towerNextText: {fileID: 0}
+    armorPenBackText: {fileID: 0}
+    armorPenNextText: {fileID: 0}
+    criticalChangeBackText: {fileID: 0}
+    criticalChangeNextText: {fileID: 0}
+    damageCostText: {fileID: 0}
+    attackSpeedCostText: {fileID: 0}
+    healthCostText: {fileID: 0}
+    towerCostText: {fileID: 0}
+    armorPenCostText: {fileID: 0}
+    criticalChangeCostText: {fileID: 0}
+    towerDamageBackText: {fileID: 0}
+    towerDamageNextText: {fileID: 0}
+    towerattackSpeedBackText: {fileID: 0}
+    towerAttackSpeedNextText: {fileID: 0}
+    towerArmorPenBackText: {fileID: 0}
+    towerArmorPenNextText: {fileID: 0}
+    towerCriticalChangeBackText: {fileID: 0}
+    towerCriticalChangeNextText: {fileID: 0}
+    towerDamageCostText: {fileID: 0}
+    towerattackSpeedCostText: {fileID: 0}
+    towerArmorPenCostText: {fileID: 0}
+    towerCriticalChangeCostText: {fileID: 0}
+    damageLevelText: {fileID: 0}
+    attackSpeedLevelText: {fileID: 0}
+    healthLevelText: {fileID: 0}
+    towerLevelText: {fileID: 0}
+    armorPenLevelText: {fileID: 0}
+    criticalChangeLevelText: {fileID: 0}
+    towerDamageLevelText: {fileID: 0}
+    towerAttackSpeedLevelText: {fileID: 0}
+    towerArmorPenLevelText: {fileID: 0}
+    towerCriticalChangeLevelText: {fileID: 0}
+    fireArrowCostText: {fileID: 0}
+    iceArrowCostText: {fileID: 0}
+    posionArrowCostText: {fileID: 0}
+    woodenArrowCostText: {fileID: 0}
+  imageClass:
+    damageCostBase: {fileID: 0}
+    attackSpeedCostBase: {fileID: 0}
+    healthCostBase: {fileID: 0}
+    towerCostBase: {fileID: 0}
+    armorPenCostBase: {fileID: 0}
+    criticalChangeCostBase: {fileID: 0}
+    fireArrowCostBase: {fileID: 0}
+    iceArrowCostBase: {fileID: 0}
+    posionArrowCostBase: {fileID: 0}
+    towerDamageCostBase: {fileID: 0}
+    towerattackSpeedCostBase: {fileID: 0}
+    towerArmorPenCostBase: {fileID: 0}
+    towerCriticalChangeCostBase: {fileID: 0}
+    towerTab1: {fileID: 0}
+    towerTab2: {fileID: 0}
+    towerTab3: {fileID: 0}
+    towerTab4: {fileID: 0}
+    towerTab5: {fileID: 0}
+    towerTab6: {fileID: 0}
+    castleUpgradeButton: {fileID: 0}
+    castleUpgradeButtonImage: {fileID: 0}
+  gameObjectC:
+    activeTab1: {fileID: 0}
+    activeTab2: {fileID: 0}
+    activeTab3: {fileID: 0}
+    tower1: {fileID: 0}
+    tower2: {fileID: 0}
+    tower3: {fileID: 0}
+    tower4: {fileID: 0}
+    tower5: {fileID: 0}
+    tower6: {fileID: 0}
+  gm: {fileID: 2965450349494162221}
+  intC:
+    selectedTower: 1
+    damageCost: 10
+    attackSpeedCost: 10
+    healthCost: 50
+    towerCost: 500
+    armorPenCost: 15
+    criticalChangeCost: 400
+    damageLevel: 0
+    attackSpeedLevel: 0
+    healthLevel: 0
+    towerLevel: 0
+    armorPenLevel: 0
+    criticalChangeLevel: 0
+    tower1DamageLevel: 0
+    tower1attackSpeedLevel: 0
+    tower1ArmorPenLevel: 0
+    tower1CriticalChangeLevel: 0
+    tower2DamageLevel: 0
+    tower2attackSpeedLevel: 0
+    tower2ArmorPenLevel: 0
+    tower2CriticalChangeLevel: 0
+    tower3DamageLevel: 0
+    tower3attackSpeedLevel: 0
+    tower3ArmorPenLevel: 0
+    tower3CriticalChangeLevel: 0
+    tower4DamageLevel: 0
+    tower4attackSpeedLevel: 0
+    tower4ArmorPenLevel: 0
+    tower4CriticalChangeLevel: 0
+    tower5DamageLevel: 0
+    tower5attackSpeedLevel: 0
+    tower5ArmorPenLevel: 0
+    tower5CriticalChangeLevel: 0
+    tower6DamageLevel: 0
+    tower6attackSpeedLevel: 0
+    tower6ArmorPenLevel: 0
+    tower6CriticalChangeLevel: 0
+    fireArrow: 0
+    iceArrow: 0
+    posionArrow: 0
+  tower1FireRate: 2
+  tower2FireRate: 2
+  tower3FireRate: 2
+  tower4FireRate: 2
+  tower5FireRate: 2
+  tower6FireRate: 2
+  fireArrowPurchased: 0
+  iceArrowPurchased: 0
+  poisonousArrowPurchased: 0
+  arrow2Buff: 0
+  arrow3Buff: 0
+  arrow4Buff: 0
+  arrow2Buff2: 0
+  arrow3Buff2: 0
+  arrow4Buff2: 0
+  selectedArrow: 0
+  audioSource: {fileID: 2965450349494162222}
+--- !u!114 &2965450349494162221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965450349494162218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a45bc0a3edd22aa41b065a0f730ed2e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  headshot: {fileID: 8300000, guid: 7d271fe0f57886745abaad21a28056bf, type: 3}
+  day: 0
+  money: 0
+  speed: 1
+  currentHealth: 0
+  Health: 0
+  fireRate: 1
+  armorPen: 5
+  enemyCurrentHelth: 0
+  currentEnemyCount: 0
+  lastFired: 0
+  enemies: []
+  turrets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spwnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  audioSourceC:
+    audioSource: {fileID: 2965450349494162223}
+    audioSource2: {fileID: 0}
+    audioSource3: {fileID: 0}
+  textC:
+    speedText: {fileID: 0}
+    bulletsText: {fileID: 0}
+    magazineText: {fileID: 0}
+    healthText: {fileID: 0}
+    enemyHealthText: {fileID: 0}
+    moneyText: {fileID: 0}
+    dayText: {fileID: 0}
+    workerText: {fileID: 0}
+    nextDayText: {fileID: 0}
+    gun1Text: {fileID: 0}
+    gun2Text: {fileID: 0}
+    gun3Text: {fileID: 0}
+    enemyNameText: {fileID: 0}
+    enemyInfoText: {fileID: 0}
+    enemyInfoText1: {fileID: 0}
+    enemyInfoText2: {fileID: 0}
+    enemyInfoText3: {fileID: 0}
+  gameObjectC:
+    canvas: {fileID: 0}
+    upgradeMenu: {fileID: 0}
+    nextLevelImage: {fileID: 0}
+    impactEffect: {fileID: 1000012142692022, guid: a475880e7da0e9548aa05cb7933752cd, type: 3}
+    impactEffect2: {fileID: 1000011190285628, guid: beb3acff7ab73944fb8f470f24d74ed3, type: 3}
+    impactEffect3: {fileID: 1000012909287652, guid: abb9f519b142e304d9c45b56afa768bc, type: 3}
+    gameOverScreen: {fileID: 0}
+    nextDayButton: {fileID: 0}
+    marketButton: {fileID: 0}
+    newEnemyImage: {fileID: 0}
+    enemyImage: {fileID: 0}
+    arrowClone: {fileID: 0}
+  healthImage: {fileID: 0}
+  enemyCountImage: {fileID: 0}
+  resourcesManager: {fileID: 11400000, guid: 76a9245468afbe14fb7174adecfd1f96, type: 2}
+  isDied: 0
+  nextDay: 0
+  menuOpen: 0
+  slow: 0
+  reklam: 1
+  damage: 1
+  tower: 0
+  criticalChange: 0
+  dailyEnemyCount: 0
+  firesound: {fileID: 0}
+  buySound: {fileID: 0}
+  reloadSound: {fileID: 0}
+  reloadSound2: {fileID: 0}
+  reloadSound3: {fileID: 0}
+  hitsound: {fileID: 0}
+  anim: {fileID: 0}
+  arrow: {fileID: 7226791427316943033, guid: 118d9cdf564a5424bb7b4696496ccb84, type: 3}
+  arrowPosition: {fileID: 2965450349760359103}
+  arrow1Buff: 0
+  arrow2Buff: 0
+  arrow3Buff: 0
+  arrow4Buff: 0
+  arrow1Control: 0
+  arrow2Control: 0
+  arrow3Control: 0
+  arrow4Control: 0
+  uprageMenu: {fileID: 2965450349494162195}
+  admobManager: {fileID: 0}
+--- !u!114 &2965450349494162193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965450349494162218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 293d8beae97a06d47999d009245eb05b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dailyEnemyCount: 80
+  gm: {fileID: 2965450349494162221}
+  enemies:
+  - {fileID: 11400000, guid: b0d5e3dfeb929b443be89b658c994ef4, type: 2}
+  - {fileID: 11400000, guid: 3a90a9a09755944408c10443f1924127, type: 2}
+  - {fileID: 11400000, guid: d39b1cbfd27221b4dae72c8f89e0ab6c, type: 2}
+  - {fileID: 11400000, guid: ad3f623bd092b3f40b03edc314384e2b, type: 2}
+  waves: []
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  timeBetweenWaves: 1
+  state: 2
+--- !u!82 &2965450349494162223
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965450349494162218}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c4cfc9be9a1c0034b910800579ffd8a0, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.058
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &2965450349494162222
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965450349494162218}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b619bbda2f828cf4ca058b4e5becad3d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &2965450349760359101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2965450349760359103}
+  - component: {fileID: 2965450349760359102}
+  m_Layer: 0
+  m_Name: ArrowStartPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2965450349760359103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965450349760359101}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.5, y: 0.162, z: -4.706529}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2965450349494162220}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2965450349760359102
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2965450349760359101}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

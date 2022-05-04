@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7d707ddaada55c4a86a9ee9741a4b0f, type: 3}
+  m_Name: New Resources Manager
+  m_EditorClassIdentifier: Assembly-CSharp::NewResourcesManager
+  allItems:
+  - {fileID: 11400000, guid: 6413ddaa9b7346f47b4972bf6b40200f, type: 2}
+  - {fileID: 11400000, guid: 2cb9a6e2060f8df48aec9456d14e29ed, type: 2}
+  - {fileID: 11400000, guid: 8332078d9aa035f43b0572d837f294eb, type: 2}
+  - {fileID: 11400000, guid: 92d7f189981c79943b6b36511814deef, type: 2}
+  - {fileID: 11400000, guid: 9ed86569af565ce4490fbbd779ff231d, type: 2}

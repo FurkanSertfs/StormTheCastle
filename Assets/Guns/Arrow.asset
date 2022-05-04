@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3cfe5db8f4612469ee9de059c4e6a3, type: 3}
+  m_Name: Arrow
+  m_EditorClassIdentifier: 
+  firesound: {fileID: 8300000, guid: e3c0ba56a64be38459d30979ef7df374, type: 3}
+  buySound: {fileID: 8300000, guid: 4c4c50075257f7142a1a575649a32a1c, type: 3}
+  reloadSound: {fileID: 8300000, guid: 800f7fece47d4564689414a97a6205c1, type: 3}
+  reloadSound2: {fileID: 8300000, guid: 52488e7532ade714aba20e1c031813df, type: 3}
+  reloadSound3: {fileID: 8300000, guid: 127881dc096e64344915cc6e0712be20, type: 3}
+  hitsound: {fileID: 0}
+  damage: 10
+  armorPen: 30
+  cost: 9000
+  automatic: 1
+  fireRate: 0.5
+  reloadtime: 2

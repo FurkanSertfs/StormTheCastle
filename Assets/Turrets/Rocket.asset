@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 405937feee3c99c49ab97f727550378a, type: 3}
+  m_Name: Rocket
+  m_EditorClassIdentifier: 
+  damage: 7.5
+  armorPen: 25
+  fireRate: 2.25
+  level: 0
+  cost: 8000
+  muzzleFlash: {fileID: 1000010254994808, guid: 9defeac88977c0d448aa4541073ee9e4, type: 3}
+  sound: {fileID: 8300000, guid: 976cf17c519b9f0469c53f6f954883c1, type: 3}
+  Sprite: {fileID: 21300000, guid: f84f133f44e92bd43b06ddf07dc9bc5f, type: 3}
